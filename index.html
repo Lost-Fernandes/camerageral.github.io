@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Painel de Monitoramento</title>
+</head>
+<body>
+  <h1>Painel de Monitoramento</h1>
+  <div class="grid">
+    <div class="camera-box">
+      <iframe src="https://www.climaaovivo.com.br/pb/campina-grande-slaviero-essential-campina-grande" allowfullscreen></iframe>
+      <div class="alert">Movimento!</div>
+      <button onclick="startRecording(this, 0)">Gravar</button>
+    </div>
+    <div class="camera-box">
+      <iframe src="https://www.webcamgalore.com/webcam/Brazil/Campina-Grande/34644.html" allowfullscreen></iframe>
+      <div class="alert">Movimento!</div>
+      <button onclick="startRecording(this, 1)">Gravar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
